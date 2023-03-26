@@ -1,36 +1,5 @@
 # s21_decimal 
 
-## Chapter I
-
-![s21_decimal](misc/images/s21_decimal.png)
-
-Planet Earth, 1990s. 
-
-The world economy is growing exponentially, the stock exchange increases many times year after year, more and more companies go public and their shares start to be quoted. The number of users, the number of transactions, price, commission, interest, calculation of financial technical indicators... It's hard to overestimate the accuracy of all this data, and there are serious problems with the current obsolete data types used in the financial sector.
-
-Due to a calculation error in the usual IEEE 754 (float) millions of dollars are lost every year, which simply absorbed from the system, disappearing forever. 
-
-Together with the FIX (Financial Information eXchange) protocol, which is being developed for data processing in the transfer between the broker and the exchange, one more tool is needed for data transfer and storage. \
-At the follow-up meeting:
-
-*-- So, gentlemen, please note that our group of specialists, who have already proven themselves in many successful projects, has been tasked by the government to develop a completely new type of data, code-named Decimal. Its task is to allow significantly minimise error for several decades, and in some cases remove it completely in the world's financial transactions. It is required to describe all the necessary logical and arithmetic operations, which would allow to make the necessary calculations quickly and conveniently.*
-
-*- Wow, that's quite an order we got, and from such a customer! We have to keep this client - it promises us big contracts in the future if we do well!*
-
-*-- Yes, you're right, that’s why we need to figure out what functions we need to implement... Any suggestions?*
-
-*-- Sum and difference....*
-
-*-- Multiplication and division...*
-
-*-- Agreed, but we need more!*
-
-*- Taking the remainder, comparison and conversion operations!*
-
-*-- Mathematical rounding in all directions!*
-
-*-- Yes, I think that’s enough, let’s get to work! We've got no more than a couple of days, don't let us down!*
-
 ## Introduction
 
 In this project you will implement the s21_decimal.h library in the C programming language. This library should add the ability to work with the "decimal" type, which is not in the language standard. Nevertheless, this type is critically important. For financial calculations, for example, where errors of calculations characteristic of types with floating point are unacceptable. As part of the project you will work with the tasks of processing financial information, dive into the issues of internal representation of different types of data, and solidify knowledge of structured programming.
